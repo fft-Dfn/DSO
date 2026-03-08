@@ -1,0 +1,12 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 08, 2026 23:20:34
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] literal value 'd8 truncated to fit in 3 bits (VERI-1208) (D:/Document\efinity_project\DSO\osd_tilemap.v:105)
+[EFX-0011 VERI-WARNING] net 'rom' does not have a driver (VDB-1002) (D:/Document\efinity_project\DSO\sine_lut.v:8)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (D:/Document\efinity_project\DSO\oscilloscope_top.v:37)
+[EFX-0011 VERI-WARNING] net 'vga_wave_raddr[9]' does not have a driver (VDB-1002) (D:/Document\efinity_project\DSO\oscilloscope_top.v:250)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (D:/Document\efinity_project\DSO\osd_tilemap.v:24)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 7 (VERI-1209) (D:/Document\efinity_project\DSO\osd_tilemap.v:105)
