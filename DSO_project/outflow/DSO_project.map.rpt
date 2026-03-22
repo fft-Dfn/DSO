@@ -1,0 +1,205 @@
+Efinity Synthesis report for project DSO_project
+Version: 2025.2.288.3.8
+Generated at: Mar 22, 2026 22:04:06
+Copyright (C) 2013 - 2025  All rights reserved.
+
+Top-level Entity Name : DSO_project
+
+family : Trion
+device : T20F256
+project : DSO_project
+root : DSO_project
+I,include : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project
+I,include : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/ip/pingpong_bram_refact
+I,include : ip/pingpong_bram_refact
+binary-db : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.vdb
+insert-ios : 0
+max-carry-cascade : 240
+max_mult : -1
+max_ram : -1
+mode : speed
+output-dir : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow
+project : DSO_project
+project-xml : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/DSO_project.xml
+root : DSO_project
+work-dir : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/work_syn
+write-efx-verilog : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.map.v
+write-premap-module : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.elab.vdb
+
+File List:
+
+D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v
+D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\DSO_project.v
+D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\dds_generator.v
+D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\vga_timing.v
+D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\sample_controller.v
+D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v
+D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\waveform_render.v
+D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\key_debouncer.v
+D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\VGA_top.v
+D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\sine_lut.v
+D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v
+
+### ### Report Section Start ### ###
+
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 52
+Total number of FFs with enable signals: 306
+CE signal <u_sample_controller/sample_tick>, number of controlling flip flops: 48
+CE signal <u_sample_controller/n3295>, number of controlling flip flops: 42
+CE signal <ceg_net278>, number of controlling flip flops: 2
+CE signal <ceg_net279>, number of controlling flip flops: 10
+CE signal <ceg_net228>, number of controlling flip flops: 25
+CE signal <u_sample_controller/n3043>, number of controlling flip flops: 10
+CE signal <ceg_net330>, number of controlling flip flops: 9
+CE signal <u_sample_controller/n3054>, number of controlling flip flops: 10
+CE signal <u_VGA_top/frame_start>, number of controlling flip flops: 10
+CE signal <u_VGA_top/u_vga_timing/equal_6/n21>, number of controlling flip flops: 10
+CE signal <u_pingpong_buffer/n873>, number of controlling flip flops: 11
+CE signal <u_pingpong_buffer/n869>, number of controlling flip flops: 11
+CE signal <ceg_net126>, number of controlling flip flops: 1
+CE signal <ceg_net131>, number of controlling flip flops: 11
+CE signal <ceg_net134>, number of controlling flip flops: 1
+CE signal <ceg_net137>, number of controlling flip flops: 11
+CE signal <ceg_net139>, number of controlling flip flops: 1
+CE signal <u_pingpong_buffer/n897>, number of controlling flip flops: 1
+CE signal <u_pingpong_buffer/n899>, number of controlling flip flops: 1
+CE signal <ceg_net344>, number of controlling flip flops: 1
+CE signal <ceg_net345>, number of controlling flip flops: 3
+CE signal <u_hmi_controller/n1840>, number of controlling flip flops: 2
+CE signal <u_hmi_controller/n1725>, number of controlling flip flops: 3
+CE signal <ceg_net346>, number of controlling flip flops: 3
+CE signal <ceg_net335>, number of controlling flip flops: 1
+CE signal <u_hmi_controller/n1820>, number of controlling flip flops: 3
+CE signal <u_hmi_controller/n1779>, number of controlling flip flops: 2
+CE signal <u_hmi_controller/n1761>, number of controlling flip flops: 2
+CE signal <u_hmi_controller/n1822>, number of controlling flip flops: 3
+CE signal <u_hmi_controller/n1824>, number of controlling flip flops: 3
+CE signal <u_hmi_controller/n1826>, number of controlling flip flops: 3
+CE signal <u_hmi_controller/n1828>, number of controlling flip flops: 3
+CE signal <u_hmi_controller/n1830>, number of controlling flip flops: 3
+CE signal <u_hmi_controller/n1832>, number of controlling flip flops: 3
+CE signal <u_hmi_controller/n1834>, number of controlling flip flops: 3
+CE signal <u_hmi_controller/n1836>, number of controlling flip flops: 3
+CE signal <u_hmi_controller/n1838>, number of controlling flip flops: 3
+CE signal <u_hmi_controller/n1770>, number of controlling flip flops: 2
+CE signal <ceg_net156>, number of controlling flip flops: 3
+CE signal <u_hmi_controller/n1793>, number of controlling flip flops: 2
+CE signal <u_hmi_controller/n1795>, number of controlling flip flops: 2
+CE signal <u_hmi_controller/n1797>, number of controlling flip flops: 2
+CE signal <u_hmi_controller/n1799>, number of controlling flip flops: 2
+CE signal <u_hmi_controller/n1802>, number of controlling flip flops: 2
+CE signal <u_hmi_controller/n1804>, number of controlling flip flops: 2
+CE signal <u_hmi_controller/n1806>, number of controlling flip flops: 2
+CE signal <u_hmi_controller/n1808>, number of controlling flip flops: 2
+CE signal <u_hmi_controller/n1784>, number of controlling flip flops: 2
+CE signal <u_hmi_controller/n1786>, number of controlling flip flops: 2
+CE signal <u_hmi_controller/n1788>, number of controlling flip flops: 2
+CE signal <u_hmi_controller/n1790>, number of controlling flip flops: 2
+CE signal <u_key_debouncer/n164>, number of controlling flip flops: 5
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 2
+Total number of FFs with set/reset signals: 719
+SR signal <global_rst_n>, number of controlling flip flops: 699
+SR signal <u_key_debouncer/n163>, number of controlling flip flops: 20
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                             FFs      ADDs      LUTs      RAMs DSP/MULTs
+------------------------------------------------------------       ---      ----      ----      ---- ---------
+DSO_project:DSO_project                                         734(8)    249(0)    970(2)     19(0)      4(0)
+ +u_key_debouncer:key_debouncer                                 35(35)    19(19)    12(12)      0(0)      0(0)
+ +u_hmi_controller:hmi_controller                               75(75)      0(0)  149(149)      0(0)      0(0)
+ +u_dds_a:dds_generator                                         40(40)    34(34)    23(23)      1(0)      0(0)
+  +u_sine_lut:sine_lut                                            0(0)      0(0)      0(0)      1(1)      0(0)
+ +u_dds_b:dds_generator                                         40(40)    34(34)    23(23)      1(0)      0(0)
+  +u_sine_lut:sine_lut                                            0(0)      0(0)      0(0)      1(1)      0(0)
+ +u_dds_c:dds_generator                                         40(40)    34(34)    23(23)      1(0)      0(0)
+  +u_sine_lut:sine_lut                                            0(0)      0(0)      0(0)      1(1)      0(0)
+ +u_dds_d:dds_generator                                         40(40)    34(34)    23(23)      1(0)      0(0)
+  +u_sine_lut:sine_lut                                            0(0)      0(0)      0(0)      1(1)      0(0)
+ +u_dds_e:dds_generator                                         40(40)    34(34)    23(23)      1(0)      0(0)
+  +u_sine_lut:sine_lut                                            0(0)      0(0)      0(0)      1(1)      0(0)
+ +u_sample_controller:sample_controller                       192(192)    31(31)  307(307)      0(0)      0(0)
+ +u_pingpong_buffer:pingpong_buffer                           138(138)      0(0)    97(95)     14(0)      0(0)
+  +u_pingpong_bram_bank0:pingpong_bram_refact                     0(0)      0(0)      1(0)      7(0)      0(0)
+   +u_efx_bram:efx_bram_51815ffeef0f44eba271f86e9840c16a_...      0(0)      0(0)      1(0)      7(0)      0(0)
+    +genblk1.tdpram_inst:efx_true_dual_port_ram_51815ffee...      0(0)      0(0)      1(0)      7(0)      0(0)
+     +brams:dpram_wrapper_mwm_51815ffeef0f44eba271f86e984...      0(0)      0(0)      1(0)      7(0)      0(0)
+      +scan_row.row[0].column[0].bram:dpbram_primitive_51...      0(0)      0(0)      1(1)      1(1)      0(0)
+      +scan_row.row[0].column[1].bram:dpbram_primitive_51...      0(0)      0(0)      0(0)      1(1)      0(0)
+      +scan_row.row[0].column[2].bram:dpbram_primitive_51...      0(0)      0(0)      0(0)      1(1)      0(0)
+      +scan_row.row[0].column[3].bram:dpbram_primitive_51...      0(0)      0(0)      0(0)      1(1)      0(0)
+      +scan_row.row[0].column[4].bram:dpbram_primitive_51...      0(0)      0(0)      0(0)      1(1)      0(0)
+      +scan_row.row[0].column[5].bram:dpbram_primitive_51...      0(0)      0(0)      0(0)      1(1)      0(0)
+      +scan_row.row[0].column[6].bram:dpbram_primitive_51...      0(0)      0(0)      0(0)      1(1)      0(0)
+  +u_pingpong_bram_bank1:pingpong_bram_refact                     0(0)      0(0)      1(0)      7(0)      0(0)
+   +u_efx_bram:efx_bram_51815ffeef0f44eba271f86e9840c16a_...      0(0)      0(0)      1(0)      7(0)      0(0)
+    +genblk1.tdpram_inst:efx_true_dual_port_ram_51815ffee...      0(0)      0(0)      1(0)      7(0)      0(0)
+     +brams:dpram_wrapper_mwm_51815ffeef0f44eba271f86e984...      0(0)      0(0)      1(0)      7(0)      0(0)
+      +scan_row.row[0].column[0].bram:dpbram_primitive_51...      0(0)      0(0)      0(0)      1(1)      0(0)
+      +scan_row.row[0].column[1].bram:dpbram_primitive_51...      0(0)      0(0)      0(0)      1(1)      0(0)
+      +scan_row.row[0].column[2].bram:dpbram_primitive_51...      0(0)      0(0)      1(1)      1(1)      0(0)
+      +scan_row.row[0].column[3].bram:dpbram_primitive_51...      0(0)      0(0)      0(0)      1(1)      0(0)
+      +scan_row.row[0].column[4].bram:dpbram_primitive_51...      0(0)      0(0)      0(0)      1(1)      0(0)
+      +scan_row.row[0].column[5].bram:dpbram_primitive_51...      0(0)      0(0)      0(0)      1(1)      0(0)
+      +scan_row.row[0].column[6].bram:dpbram_primitive_51...      0(0)      0(0)      0(0)      1(1)      0(0)
+ +u_VGA_top:VGA_top                                             86(42)    29(10)   288(19)      0(0)      4(0)
+  +u_vga_timing:vga_timing                                      44(44)    19(19)    43(43)      0(0)      0(0)
+  +u_waveform_renderer:waveform_renderer                          0(0)      0(0)  226(226)      0(0)      4(4)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+   Clock      Flip-Flops    Memory PortsMultipliers/DSPs
+   -----      ----------    ----------------------------
+ clk_50m             544              19               0
+ clk_25m             190              14               0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Memory Mapping Report (begin) ### ### ###
+
+1. u_dds_c/u_sine_lut/rom (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\sine_lut.v:10):
+	EFX_RAM_5K: u_dds_c/u_sine_lut/rom
+
+2. u_dds_a/u_sine_lut/rom (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\sine_lut.v:10):
+	EFX_RAM_5K: u_dds_a/u_sine_lut/rom
+
+3. u_dds_b/u_sine_lut/rom (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\sine_lut.v:10):
+	EFX_RAM_5K: u_dds_b/u_sine_lut/rom
+
+4. u_dds_d/u_sine_lut/rom (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\sine_lut.v:10):
+	EFX_RAM_5K: u_dds_d/u_sine_lut/rom
+
+5. u_dds_e/u_sine_lut/rom (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\sine_lut.v:10):
+	EFX_RAM_5K: u_dds_e/u_sine_lut/rom
+
+### ### Memory Mapping Report (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	8
+OUTPUT PORTS    : 	19
+
+EFX_ADD         : 	249
+EFX_LUT4        : 	970
+   1-2  Inputs  : 	211
+   3    Inputs  : 	246
+   4    Inputs  : 	513
+EFX_MULT        : 	4
+EFX_FF          : 	734
+EFX_RAM_5K      : 	5
+EFX_DPRAM_5K    : 	14
+EFX_GBUFCE      : 	2
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 4s
+Elapsed synthesis time : 5s

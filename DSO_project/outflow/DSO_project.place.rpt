@@ -1,0 +1,72 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2025.2.288.3.8 
+Date: Sun Mar 22 22:04:15 2026
+
+Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T20F256
+Top-level Entity Name: DSO_project
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 8 / 438 (1.83%)
+Outputs: 38 / 1001 (3.80%)
+Clocks: 2 / 16 (12.50%)
+Logic Elements: 1491 / 19728 (7.56%)
+	LE: LUTs/Adders: 1221 / 19728 (6.19%)
+	LE: Registers: 734 / 13920 (5.27%)
+Memory Blocks: 19 / 204 (9.31%)
+Multipliers: 4 / 36 (11.11%)
+---------- Resource Summary (end) ----------
+
+
+---------- DSP Block Information (begin) ----------
+
++--------------------------------------+-------+-------+-------+-----------+------------+-----------+------------+-----------+------------+
+|                 NAME                 | A_REG | B_REG | O_REG | RSTA_SYNC | RSTA_VALUE | RSTB_SYNC | RSTB_VALUE | RSTO_SYNC | RSTO_VALUE |
++--------------------------------------+-------+-------+-------+-----------+------------+-----------+------------+-----------+------------+
+| u_VGA_top/u_waveform_renderer/mult_7 | false | false | false |   false   |   false    |   false   |   false    |   false   |   false    |
+| u_VGA_top/u_waveform_renderer/mult_5 | false | false | false |   false   |   false    |   false   |   false    |   false   |   false    |
+| u_VGA_top/u_waveform_renderer/mult_3 | false | false | false |   false   |   false    |   false   |   false    |   false   |   false    |
+| u_VGA_top/u_waveform_renderer/mult_9 | false | false | false |   false   |   false    |   false   |   false    |   false   |   false    |
++--------------------------------------+-------+-------+-------+-----------+------------+-----------+------------+-----------+------------+
+
+----------- DSP Block Information (end) ----------
+
+
+---------- Memory Block Information (begin) ----------
+
++------------------------+------+------------+-------------+--------------+------------+
+|          NAME          | MODE | READ_WIDTH | WRITE_WIDTH |  WRITE_MODE  | OUTPUT_REG |
++------------------------+------+------------+-------------+--------------+------------+
+| u_dds_a/u_sine_lut/rom | SDP  |     8      |      8      | READ_UNKNOWN |   false    |
+| u_dds_b/u_sine_lut/rom | SDP  |     8      |      8      | READ_UNKNOWN |   false    |
+| u_dds_c/u_sine_lut/rom | SDP  |     8      |      8      | READ_UNKNOWN |   false    |
+| u_dds_d/u_sine_lut/rom | SDP  |     8      |      8      | READ_UNKNOWN |   false    |
+| u_dds_e/u_sine_lut/rom | SDP  |     8      |      8      | READ_UNKNOWN |   false    |
++------------------------+------+------------+-------------+--------------+------------+
+
++-----------------------------------------------------------------------------------------------------------------------------+------+--------------+---------------+--------------+--------------+--------------+---------------+--------------+--------------+
+|                                                            NAME                                                             | MODE | READ_WIDTH_A | WRITE_WIDTH_A | WRITE_MODE_A | OUTPUT_REG_A | READ_WIDTH_B | WRITE_WIDTH_B | WRITE_MODE_B | OUTPUT_REG_B |
++-----------------------------------------------------------------------------------------------------------------------------+------+--------------+---------------+--------------+--------------+--------------+---------------+--------------+--------------+
+| u_pingpong_buffer/u_pingpong_bram_bank0/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram5k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_pingpong_buffer/u_pingpong_bram_bank1/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram5k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_pingpong_buffer/u_pingpong_bram_bank0/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram5k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_pingpong_buffer/u_pingpong_bram_bank1/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.dpram5k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_pingpong_buffer/u_pingpong_bram_bank1/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.dpram5k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_pingpong_buffer/u_pingpong_bram_bank1/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[4].bram/genblk1.dpram5k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_pingpong_buffer/u_pingpong_bram_bank1/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[5].bram/genblk1.dpram5k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_pingpong_buffer/u_pingpong_bram_bank1/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[6].bram/genblk1.dpram5k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_pingpong_buffer/u_pingpong_bram_bank1/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram5k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_pingpong_buffer/u_pingpong_bram_bank0/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.dpram5k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_pingpong_buffer/u_pingpong_bram_bank0/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.dpram5k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_pingpong_buffer/u_pingpong_bram_bank0/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[4].bram/genblk1.dpram5k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_pingpong_buffer/u_pingpong_bram_bank0/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[5].bram/genblk1.dpram5k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_pingpong_buffer/u_pingpong_bram_bank0/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[6].bram/genblk1.dpram5k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
++-----------------------------------------------------------------------------------------------------------------------------+------+--------------+---------------+--------------+--------------+--------------+---------------+--------------+--------------+
+
+----------- Memory Block Information (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 2 seconds

@@ -1,0 +1,54 @@
+
+# Efinity Interface Configuration
+# Version: 2025.2.288.3.8
+# Date: 2026-03-22 22:04
+
+# Copyright (C) 2013 - 2025 Efinix Inc. All rights reserved.
+
+# [required | optional] (input|output|clkout), x, y, z, __bypass__|[~|!]<clock>, [[~|!]<pin_name>] | __vcc__ | __gnd__
+clkout, 160, 38, -1, clk_25m
+clkout, 160, 48, -1, clk_25m
+clkout, 160, 51, -1, clk_25m
+clkout, 160, 68, -1, clk_25m
+clkout, 160, 73, -1, clk_25m
+clkout, 160, 91, -1, clk_25m
+clkout, 160, 93, -1, clk_25m
+clkout, 160, 98, -1, clk_25m
+clkout, 160, 103, -1, clk_25m
+clkout, 160, 106, -1, clk_25m
+clkout, 160, 108, -1, clk_25m
+clkout, 160, 133, -1, clk_25m
+clkout, 160, 138, -1, clk_25m
+clkout, 160, 146, -1, clk_25m
+clkout, 160, 161, -1, clk_25m
+clkout, 160, 176, -1, clk_25m
+clkout, 160, 181, -1, clk_25m
+clkout, 160, 186, -1, clk_25m
+clkout, 3, 243, -1, clk_50m
+input, 0, 118, 1, __bypass__, clk_25m
+input, 160, 99, 3, __bypass__, clk_50m
+input, 0, 192, 1, __bypass__, key_back_n
+input, 0, 199, 3, __bypass__, key_down_n
+input, 0, 209, 3, __bypass__, key_enter_n
+input, 0, 214, 3, __bypass__, key_up_n
+output, 62, 0, 0, __bypass__, led_0
+input, 2, 243, 1, __bypass__, pll_locked
+input, 160, 239, 3, __bypass__, sys_rst_n
+output, 160, 92, 0, __bypass__, vga_b[0]
+output, 160, 89, 2, __bypass__, vga_b[1]
+output, 160, 67, 0, __bypass__, vga_b[2]
+output, 160, 72, 0, __bypass__, vga_b[3]
+output, 160, 37, 0, __bypass__, vga_b[4]
+output, 160, 132, 0, __bypass__, vga_g[0]
+output, 160, 137, 0, __bypass__, vga_g[1]
+output, 160, 107, 0, __bypass__, vga_g[2]
+output, 160, 104, 2, __bypass__, vga_g[3]
+output, 160, 102, 0, __bypass__, vga_g[4]
+output, 160, 97, 0, __bypass__, vga_g[5]
+output, 160, 49, 2, __bypass__, vga_hs
+output, 160, 179, 2, __bypass__, vga_r[0]
+output, 160, 159, 2, __bypass__, vga_r[1]
+output, 160, 174, 2, __bypass__, vga_r[2]
+output, 160, 184, 2, __bypass__, vga_r[3]
+output, 160, 144, 2, __bypass__, vga_r[4]
+output, 160, 47, 0, __bypass__, vga_vs

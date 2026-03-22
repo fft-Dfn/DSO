@@ -1,0 +1,336 @@
+INFO     : Efinix FPGA Synthesis.
+INFO     : Version: 2025.2.288.3.8
+INFO     : Compiled: Jan 28 2026.
+INFO     : 
+INFO     : Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
+
+INFO     : Reading project database "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/DSO_project.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Analyzing Verilog file 'E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v' [VERI-1482]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(8): compiling module 'EFX_IBUF' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(16): compiling module 'EFX_OBUF' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(23): compiling module 'EFX_IO_BUF' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(33): compiling module 'EFX_CLKOUT' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(41): compiling module 'EFX_IREG' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(51): compiling module 'EFX_OREG' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(60): compiling module 'EFX_IOREG' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(75): compiling module 'EFX_IDDIO' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(87): compiling module 'EFX_ODDIO' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(99): compiling module 'EFX_GPIO_V1' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(124): compiling module 'EFX_GPIO_V2' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(149): compiling module 'EFX_GPIO_V3' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(186): compiling module 'EFX_PLL_V1' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(205): compiling module 'EFX_PLL_V2' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(231): compiling module 'EFX_PLL_V3' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(279): compiling module 'EFX_OSC_V1' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(285): compiling module 'EFX_OSC_V3' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(294): compiling module 'EFX_FPLL_V1' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(348): compiling module 'EFX_JTAG_V1' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(357): compiling module 'EFX_JTAG_CTRL' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(364): compiling module 'EFX_LVDS_RX_V1' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(381): compiling module 'EFX_LVDS_TX_V1' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(399): compiling module 'EFX_LVDS_RX_V2' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(426): compiling module 'EFX_LVDS_TX_V2' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(446): compiling module 'EFX_LVDS_BIDIR_V2' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(485): compiling module 'EFX_MIPI_TX_LN_V1' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(508): compiling module 'EFX_MIPI_RX_LN_V1' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v(543): compiling module 'EFX_MIPI_RX_CLK_LN_V1' [VERI-1018]
+INFO     : Reading project database "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/DSO_project.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : ***** Beginning Analysis ... *****
+INFO     : default VHDL library search path is now "E:/Efinity/2025.2/sim_models/vhdl/packages/vhdl_2008" [VHDL-1504]
+INFO     : Analyzing Verilog file 'E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'E:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v' [VERI-1482]
+INFO     : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(778): analyzing included file 'D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact/bram_ini.vh' [VERI-1328]
+INFO     : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(778): back to file 'D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v' [VERI-2320]
+INFO     : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(1050): analyzing included file 'D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact/bram_decompose.vh' [VERI-1328]
+INFO     : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(1050): back to file 'D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v' [VERI-2320]
+INFO     : Analyzing Verilog file 'D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\DSO_project.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\dds_generator.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\vga_timing.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\sample_controller.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\waveform_render.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\key_debouncer.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\VGA_top.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\sine_lut.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v' [VERI-1482]
+INFO     : Analysis took 0.0320636 seconds [FlowMsg::StageDuration]
+INFO     :     Analysis took 0.015625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Analysis virtual memory usage: begin = 53.94 MB, end = 55 MB, delta = 1.06 MB [FlowMsg::VMUsage]
+INFO     :     Analysis peak virtual memory usage = 55 MB [FlowMsg::VMUsage::Peak]
+INFO     : Analysis resident set memory usage: begin = 59.684 MB, end = 62.28 MB, delta = 2.596 MB [FlowMsg::RSSUsage]
+INFO     :     Analysis peak resident set memory usage = 62.28 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending Analysis ... *****
+INFO     : ***** Beginning Elaboration ... *****
+INFO     : D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\DSO_project.v(1): compiling module 'DSO_project' [VERI-1018]
+INFO     : D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\key_debouncer.v(1): compiling module 'key_debouncer' [VERI-1018]
+INFO     : D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v(1): compiling module 'hmi_controller' [VERI-1018]
+INFO     : D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\dds_generator.v(1): compiling module 'dds_generator' [VERI-1018]
+INFO     : D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\sine_lut.v(1): compiling module 'sine_lut' [VERI-1018]
+INFO     : D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\sine_lut.v(10): extracting RAM for identifier 'rom' [VERI-2571]
+WARNING  : D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\sine_lut.v(10): net 'rom' does not have a driver [VDB-1002]
+INFO     : D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\sample_controller.v(1): compiling module 'sample_controller' [VERI-1018]
+INFO     : D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v(1): compiling module 'pingpong_buffer' [VERI-1018]
+WARNING  : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(144): port 'clk' is not connected on this instance [VERI-2435]
+INFO     : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(49): compiling module 'pingpong_bram_refact' [VERI-1018]
+INFO     : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(147): compiling module 'efx_bram_51815ffeef0f44eba271f86e9840c16a_renamed_due_excessive_length_1' [VERI-1018]
+INFO     : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(2719): compiling module 'efx_true_dual_port_ram_51815ffeef0f44eba271f86e9840c16a_renamed_due_excessive_length_2' [VERI-1018]
+INFO     : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(971): compiling module 'dpram_wrapper_mwm_51815ffeef0f44eba271f86e9840c16a_renamed_due_excessive_length_3' [VERI-1018]
+WARNING  : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(1091): expression size 32 truncated to fit in target size 1 [VERI-1209]
+WARNING  : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(1092): expression size 32 truncated to fit in target size 1 [VERI-1209]
+WARNING  : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(1104): expression size 32 truncated to fit in target size 1 [VERI-1209]
+WARNING  : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(1105): expression size 32 truncated to fit in target size 1 [VERI-1209]
+WARNING  : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(1108): expression size 32 truncated to fit in target size 1 [VERI-1209]
+WARNING  : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(1109): expression size 32 truncated to fit in target size 1 [VERI-1209]
+INFO     : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(657): compiling module 'dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1)' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(394): compiling module 'EFX_DPRAM_5K(CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_A=5,WRITE_WIDTH_A=5,READ_WIDTH_B=5,WRITE_WIDTH_B=5,OUTPUT_REG_A=0,OUTPUT_REG_B=0)' [VERI-1018]
+INFO     : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(657): compiling module 'dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=1)' [VERI-1018]
+INFO     : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(657): compiling module 'dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=2)' [VERI-1018]
+INFO     : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(657): compiling module 'dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=3)' [VERI-1018]
+INFO     : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(657): compiling module 'dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=4)' [VERI-1018]
+INFO     : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(657): compiling module 'dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=5)' [VERI-1018]
+WARNING  : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(2578): expression size 5 truncated to fit in target size 2 [VERI-1209]
+WARNING  : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(2599): expression size 5 truncated to fit in target size 2 [VERI-1209]
+INFO     : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(657): compiling module 'dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=6)' [VERI-1018]
+WARNING  : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(133): input port 'clk' remains unconnected for this instance [VDB-1053]
+WARNING  : D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v(133): input port 'addr[9]' is not connected on this instance [VDB-1013]
+INFO     : D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\VGA_top.v(1): compiling module 'VGA_top' [VERI-1018]
+INFO     : D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\vga_timing.v(1): compiling module 'vga_timing' [VERI-1018]
+INFO     : D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\waveform_render.v(1): compiling module 'waveform_renderer' [VERI-1018]
+WARNING  : D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\waveform_render.v(38): expression size 32 truncated to fit in target size 10 [VERI-1209]
+WARNING  : D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\waveform_render.v(39): expression size 32 truncated to fit in target size 10 [VERI-1209]
+WARNING  : D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\waveform_render.v(40): expression size 32 truncated to fit in target size 10 [VERI-1209]
+WARNING  : D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\waveform_render.v(41): expression size 32 truncated to fit in target size 10 [VERI-1209]
+INFO     : Elaboration took 0.0475759 seconds [FlowMsg::StageDuration]
+INFO     :     Elaboration took 0.03125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Elaboration virtual memory usage: begin = 55 MB, end = 63.216 MB, delta = 8.216 MB [FlowMsg::VMUsage]
+INFO     :     Elaboration peak virtual memory usage = 63.216 MB [FlowMsg::VMUsage::Peak]
+INFO     : Elaboration resident set memory usage: begin = 62.32 MB, end = 71.748 MB, delta = 9.428 MB [FlowMsg::RSSUsage]
+INFO     :     Elaboration peak resident set memory usage = 71.748 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending Elaboration ... *****
+INFO     : ... Setting Synthesis Option: mode=speed
+INFO     : ***** Beginning Reading Mapping Library ... *****
+INFO     : Analyzing Verilog file 'E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v' [VERI-1482]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(8): compiling module 'EFX_ADD' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(21): compiling module 'EFX_FF' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(38): compiling module 'EFX_COMB4' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(48): compiling module 'EFX_GBUFCE' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(57): compiling module 'EFX_LUT4' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(65): compiling module 'EFX_MULT' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(100): compiling module 'EFX_DSP48' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(156): compiling module 'EFX_DSP24' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(209): compiling module 'EFX_DSP12' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(262): compiling module 'EFX_RAM_4K' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(322): compiling module 'EFX_RAM_5K' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(394): compiling module 'EFX_DPRAM_5K' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(499): compiling module 'RAMB5' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(561): compiling module 'EFX_RAM_10K' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(653): compiling module 'EFX_RAM10' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(754): compiling module 'EFX_DPRAM10' [VERI-1018]
+INFO     : E:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(884): compiling module 'EFX_SRL8' [VERI-1018]
+INFO     : Reading Mapping Library took 0.0067387 seconds [FlowMsg::StageDuration]
+INFO     :     Reading Mapping Library took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Reading Mapping Library virtual memory usage: begin = 68.86 MB, end = 68.86 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     Reading Mapping Library peak virtual memory usage = 68.86 MB [FlowMsg::VMUsage::Peak]
+INFO     : Reading Mapping Library resident set memory usage: begin = 76.284 MB, end = 76.292 MB, delta = 0.008 MB [FlowMsg::RSSUsage]
+INFO     :     Reading Mapping Library peak resident set memory usage = 76.292 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending Reading Mapping Library ... *****
+INFO     : ... Pre-synthesis checks begin
+WARNING  : Removing redundant signal : i[31]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[30]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[29]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[28]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[27]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[26]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[25]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[24]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[23]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[22]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[21]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[20]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[19]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[18]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[17]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[16]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[15]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[14]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[13]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : Removing redundant signal : i[12]. (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:114) [EFX-0200]
+WARNING  : (The above message was generated too many times, subsequent similar messages will be muted.) [EFX-0200]
+WARNING  : Re-wiring to GND non-driven net 'u_efx_bram.clk'. (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v:133) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'u_efx_bram.addr[9]'. (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v:133) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'u_efx_bram.addr[8]'. (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v:133) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'u_efx_bram.addr[7]'. (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v:133) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'u_efx_bram.addr[6]'. (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v:133) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'u_efx_bram.addr[5]'. (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v:133) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'u_efx_bram.addr[4]'. (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v:133) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'u_efx_bram.addr[3]'. (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v:133) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'u_efx_bram.addr[2]'. (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v:133) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'u_efx_bram.addr[1]'. (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram_refact\pingpong_bram_refact.v:133) [EFX-0201]
+WARNING  : (The above message was generated too many times, subsequent similar messages will be muted.) [EFX-0201]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[0]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[1]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[2]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[3]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[4]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[5]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[6]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[7]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[8]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[9]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[10]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[11]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[12]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[13]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[14]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[15]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[16]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[17]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[18]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[19]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[20]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[21]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[22]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[23]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[24]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[25]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[26]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[27]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[28]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[29]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[30]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank0' input pin 'wdata_b[31]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[0]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[1]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[2]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[3]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[4]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[5]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[6]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[7]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[8]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[9]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[10]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[11]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[12]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[13]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[14]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[15]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[16]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[17]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[18]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[19]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[20]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[21]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[22]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[23]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[24]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[25]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[26]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[27]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[28]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[29]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[30]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_pingpong_bram_bank1' input pin 'wdata_b[31]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'u_sample_controller' input pin 'rearm' is tied to constant (=1). [EFX-0266]
+INFO     : ... Pre-synthesis checks end (Real time : 0s)
+INFO     : ... NameSpace init begin
+INFO     : ... NameSpace init end (Real time : 0s)
+INFO     : ... Mapping design "DSO_project"
+INFO     : ... Hierarchical pre-synthesis "key_debouncer" begin
+INFO     : ... Hierarchical pre-synthesis "key_debouncer" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "hmi_controller" begin
+INFO     : ... Hierarchical pre-synthesis "hmi_controller" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "sine_lut" begin
+INFO     : ... Hierarchical pre-synthesis "sine_lut" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "dds_generator" begin
+INFO     : ... Hierarchical pre-synthesis "dds_generator" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "sample_controller" begin
+INFO     : ... Hierarchical pre-synthesis "sample_controller" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1)" begin
+INFO     : ... Hierarchical pre-synthesis "dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=1)" begin
+INFO     : ... Hierarchical pre-synthesis "dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=2)" begin
+INFO     : ... Hierarchical pre-synthesis "dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=2)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=3)" begin
+INFO     : ... Hierarchical pre-synthesis "dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=3)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=4)" begin
+INFO     : ... Hierarchical pre-synthesis "dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=4)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=5)" begin
+INFO     : ... Hierarchical pre-synthesis "dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=5)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=6)" begin
+INFO     : ... Hierarchical pre-synthesis "dpbram_primitive_51815ffeef0f44eba271f86e9840c16a(FAMILY="TRION",WRITE_WIDTH_A=5,CLKA_POLARITY=1,CLKEA_POLARITY=1,WEA_POLARITY=1,READ_WIDTH_A=5,OUTPUT_REG_A=0,WRITE_WIDTH_B=5,CLKB_POLARITY=1,CLKEB_POLARITY=1,WEB_POLARITY=1,READ_WIDTH_B=5,OUTPUT_REG_B=0,RSTA_POLARITY=1,ADDRENA_POLARITY=1,RSTB_POLARITY=1,ADDRENB_POLARITY=1,ini_index=6)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "dpram_wrapper_mwm_51815ffeef0f44eba271f86e9840c16a_renamed_due_excessive_length_3" begin
+INFO     : ... Hierarchical pre-synthesis "dpram_wrapper_mwm_51815ffeef0f44eba271f86e9840c16a_renamed_due_excessive_length_3" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_true_dual_port_ram_51815ffeef0f44eba271f86e9840c16a_renamed_due_excessive_length_2" begin
+INFO     : ... Hierarchical pre-synthesis "efx_true_dual_port_ram_51815ffeef0f44eba271f86e9840c16a_renamed_due_excessive_length_2" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "efx_bram_51815ffeef0f44eba271f86e9840c16a_renamed_due_excessive_length_1" begin
+INFO     : ... Hierarchical pre-synthesis "efx_bram_51815ffeef0f44eba271f86e9840c16a_renamed_due_excessive_length_1" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "pingpong_bram_refact" begin
+INFO     : ... Hierarchical pre-synthesis "pingpong_bram_refact" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "pingpong_buffer" begin
+INFO     : ... Hierarchical pre-synthesis "pingpong_buffer" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "vga_timing" begin
+INFO     : ... Hierarchical pre-synthesis "vga_timing" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "waveform_renderer" begin
+INFO     : ... Hierarchical pre-synthesis "waveform_renderer" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "VGA_top" begin
+INFO     : ... Hierarchical pre-synthesis "VGA_top" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "DSO_project" begin
+INFO     : ... Clock Enable Synthesis Performed on 166 flops.
+INFO     : ... Hierarchical pre-synthesis "DSO_project" end (Real time : 0s)
+INFO     : ... Flat optimizations begin
+INFO     : ... Flat optimizations end (Real time : 0s)
+INFO     : ... Flat synthesis begin
+INFO     : ... Flat synthesis end (Real time : 0s)
+INFO     : ... Flat optimizations begin
+INFO     : ... Flat optimizations end (Real time : 0s)
+INFO     : ... Check and break combinational loops begin
+INFO     : ... Check and break combinational loops end (Real time : 0s)
+INFO     : ... Sequential Optimization begin
+INFO     : ... Clock Network 'clk_50m' with 555 loads will be considered for sequential optimization.
+INFO     : ... Clock Network 'clk_25m' with 194 loads will be considered for sequential optimization.
+INFO     : ... Sequential Optimization deduced 224 equivalent points.
+INFO     : ... Sequential Optimization end (Real time : 1s)
+INFO     : ... Setup for logic synthesis begin
+INFO     : ... Setup for logic synthesis end (Real time : 0s)
+INFO     : ... LUT mapping begin
+INFO     : ... LS, strategy: 3, nd: 976, ed: 3237, lv: 7, pw: 2591.45
+INFO     : ... LUT mapping end (Real time : 3s)
+INFO     : ... Post-synthesis Verific netlist creation begin
+INFO     : ... Post-synthesis Verific netlist creation end (Real time : 0s)
+INFO     : ... Postmap Retiming Optimization begin
+INFO     : ... Clock Network 'clk_50m~clk_50m' with 544 loads will be considered for retiming optimization.
+INFO     : ... Clock Network 'clk_25m~clk_25m' with 190 loads will be considered for retiming optimization.
+INFO     : ... Performed 0 retime moves.
+INFO     : ... Postmap Retiming Optimization end (Real time : 0s)
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0040789 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 93.956 MB, end = 93.98 MB, delta = 0.024 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 178.076 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 105.788 MB, end = 105.88 MB, delta = 0.092 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 165.192 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Resource Summary 
+INFO     : =============================== 
+INFO     : EFX_ADD         : 	249
+INFO     : EFX_LUT4        : 	970
+INFO     : EFX_MULT        : 	4
+INFO     : EFX_FF          : 	734
+INFO     : EFX_RAM_5K      : 	5
+INFO     : EFX_DPRAM_5K    : 	14
+INFO     : EFX_GBUFCE      : 	2
+INFO     : =============================== 
+INFO     : ... Post-Map Verilog Writer begin
+INFO     : Writing netlist 'DSO_project' to Verilog file 'D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.map.v' [VDB-1030]
+INFO     : ... Post-Map Verilog Writer end (Real time : 0s)
+INFO     : The entire flow of EFX_MAP took 5.1832076 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_MAP took 4.9375 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 18.524 MB, end = 105.212 MB, delta = 86.688 MB [FlowMsg::VMUsage]
+INFO     :     The entire flow of EFX_MAP peak virtual memory usage = 178.076 MB [FlowMsg::VMUsage::Peak]
+INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 18.6 MB, end = 115.14 MB, delta = 96.54 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_MAP peak resident set memory usage = 165.192 MB [FlowMsg::RSSUsage::Peak]

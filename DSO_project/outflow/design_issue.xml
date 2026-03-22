@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<efxpt:issue_info xmlns:efxpt="http://www.efinixinc.com/peri_design_db"><efxpt:issue instance_name="led_0" instance_type="gpio" severity="warning" rule_name="gpio_rule_cfg_drive_strength" message="Resource GPIOB_TXP10 does not support Drive Strength feature. It will be ignored." /><efxpt:issue instance_name="pll_inst1" instance_type="clock" severity="info" rule_name="clock_rule_undefined_name" message="Clock (clk_50m) not defined in the interface, assuming core generated." /></efxpt:issue_info>

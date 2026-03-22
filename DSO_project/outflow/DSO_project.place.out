@@ -1,0 +1,217 @@
+           
+           Efinix FPGA Placement and Routing.
+           Version: 2025.2.288.3.8 
+           Compiled: Jan 28 2026.
+           
+           Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
+
+           
+           The Tool Is Based on VPR of University of Toronto,
+           a free open source code under MIT license.
+           
+           
+INFO     : Running Placement and Routing for Family "Trion", Device "T20F256" ...
+           
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully read in VDB netlist file D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.vdb [DBMsg::VdbFileRead]
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0054823 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 93.408 MB, end = 94.048 MB, delta = 0.64 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 94.056 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 102.604 MB, end = 103.548 MB, delta = 0.944 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 103.548 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Found 0 constant generator nets [DBMsg::NetlistConstGeneratorCount]
+INFO     : Pass 0: Swept away 0 nets with no fanout [DBMsg::NetlistNetsSweptThisPass]
+INFO     : Pass 0: Swept away 0 blocks with no fanout [DBMsg::NetlistBlocksSweptThisPass]
+INFO     : Swept away 0 nets and 0 blocks in total [DBMsg::NetlistTotalSwept]
+INFO     : Removed 0 LUT buffers [DBMsg::NetlistRemovedLUTBuffers]
+INFO     : Successfully read in VDB netlist file D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.vdb [DBMsg::VdbFileRead]
+INFO     : Netlist pre-processing took 0.023246 seconds [FlowMsg::StageDuration]
+INFO     :     Netlist pre-processing took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Netlist pre-processing virtual memory usage: begin = 93.408 MB, end = 94.048 MB, delta = 0.64 MB [FlowMsg::VMUsage]
+INFO     :     Netlist pre-processing peak virtual memory usage = 94.056 MB [FlowMsg::VMUsage::Peak]
+INFO     : Netlist pre-processing resident set memory usage: begin = 102.204 MB, end = 104.032 MB, delta = 1.828 MB [FlowMsg::RSSUsage]
+INFO     :     Netlist pre-processing peak resident set memory usage = 104.032 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage netlist pre-processing *****
+           
+           ***** Beginning stage pre-packing ... *****
+           ***** Ending stage pre-packing *****
+           
+           ***** Beginning stage packing ... *****
+INFO     : Generate proto netlist for file "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/work_pnr\DSO_project.net_proto" took 0.006 seconds
+INFO     : Creating IO constraints file 'D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/work_pnr\DSO_project.io_place'
+INFO     : Packing took 0.0106206 seconds [FlowMsg::StageDuration]
+INFO     :     Packing took 0.015625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Packing virtual memory usage: begin = 94.048 MB, end = 94.048 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     Packing peak virtual memory usage = 94.056 MB [FlowMsg::VMUsage::Peak]
+INFO     : Packing resident set memory usage: begin = 104.56 MB, end = 105.108 MB, delta = 0.548 MB [FlowMsg::RSSUsage]
+INFO     :     Packing peak resident set memory usage = 105.108 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage packing *****
+           
+INFO     : Read proto netlist file D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/work_pnr\DSO_project.net_proto
+INFO     : Read proto netlist for file "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/work_pnr\DSO_project.net_proto" took 0.002 seconds
+INFO     : Setup net and block data structure took 0.018 seconds
+INFO     : Reading core interface constraints file "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+           ***** Beginning stage packed netlist loading ... *****
+INFO     : Read proto netlist file D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/work_pnr\DSO_project.net_proto
+INFO     : Read proto netlist for file "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/work_pnr\DSO_project.net_proto" took 0.001 seconds
+INFO     : Setup net and block data structure took 0.017 seconds
+INFO     : Packed netlist loading took 0.018967 seconds [FlowMsg::StageDuration]
+INFO     :     Packed netlist loading took 0.015625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Packed netlist loading virtual memory usage: begin = 94.376 MB, end = 94.376 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     Packed netlist loading peak virtual memory usage = 94.384 MB [FlowMsg::VMUsage::Peak]
+INFO     : Packed netlist loading resident set memory usage: begin = 107.508 MB, end = 107.532 MB, delta = 0.024 MB [FlowMsg::RSSUsage]
+INFO     :     Packed netlist loading peak resident set memory usage = 107.532 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage packed netlist loading *****
+           
+           ***** Beginning stage pre-placement ... *****
+           
+           ***** Ending stage pre-placement *****
+           
+INFO     : No SDC file found.  Using default timing constraint of 1 ns.
+INFO     : NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+INFO     : Creating clock 'clk_50m' with 1 sources
+INFO     : Creating clock 'clk_25m' with 1 sources
+           ***** Beginning stage initial placement ... *****
+INFO     : Reading core interface constraints file "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Writing IO placement constraints to "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow\DSO_project.interface.io" [DBMsg::IOPlacementConstraintsFileWriting]
+INFO     : Reading placement constraints from 'D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow\DSO_project.interface.io'.
+INFO     : Reading placement constraints from 'D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/work_pnr\DSO_project.io_place'.
+WARNING  : Clock source clk_50m does not use a dedicated clock pad, so extra clock insertion delay is added
+           ***** Ending stage initial placement *****
+           
+           ***** Beginning stage placement ... *****
+INFO     : Chip::LoadDelayLookupTable
+INFO     : Starting Global Placer with 14 threads ...
+            ----------     -------  --------------     -------
+             Iteration       WHPWL Worst Slack (ps) Convergence
+            ----------     -------  --------------     -------
+INFO     :           1     1055532           -4152         9.6%
+INFO     :           2     1281982           -3815         9.6%
+INFO     :           3     1401698           -3815        10.0%
+INFO     :           4     1134433           -3815        11.0%
+INFO     :           5      591493           -3815        11.0%
+INFO     :           6      296822           -3815        12.3%
+INFO     :           7      152672           -4219        17.1%
+INFO     :           8       97693           -5702        24.7%
+INFO     :           9       67546           -6780        38.4%
+INFO     :          10       66678           -7069        51.4%
+INFO     :          11       59075           -6526        53.4%
+INFO     :          12       59752           -6584        60.2%
+INFO     :          13       60804           -7698        61.2%
+INFO     :          14       59848           -6933        62.5%
+INFO     :          15       59549           -6629        63.8%
+INFO     :          16       59172           -6972        65.2%
+INFO     :          17       56971           -6955        66.4%
+INFO     :          18       57880           -6608        67.5%
+INFO     :          19       57326           -6923        68.1%
+INFO     :          20       55976           -7015        68.1%
+INFO     :          21       56890           -7162        70.5%
+INFO     :          22       56186           -6927        71.1%
+INFO     :          23       54901           -7163        71.1%
+INFO     :          24       53863           -6942        73.6%
+INFO     :          25       54396           -7333        73.6%
+INFO     :          26       53444           -7721        74.2%
+INFO     :          27       52706           -7681        76.9%
+INFO     :          28       51951           -6994        76.9%
+INFO     :          29       50847           -7393        78.6%
+INFO     :          30       50226           -8100        80.3%
+INFO     :          31       50016           -7738        81.3%
+INFO     :          32       50055           -7698        81.9%
+INFO     :          33       49896           -7738        83.2%
+INFO     :          34       49714           -7413        83.3%
+INFO     :          35       49283           -7628        84.6%
+INFO     :          36       49333           -7754        86.7%
+INFO     :          37       49301           -7356        86.7%
+INFO     :          38       49751           -7725        86.8%
+INFO     :          39       49686           -8075        88.2%
+INFO     :          40       50098           -8058        88.8%
+INFO     :          41       49880           -8069        89.3%
+INFO     :          42       50202           -8069        89.8%
+INFO     :          43       50231           -8067        91.6%
+INFO     :          44       50201           -7874        91.8%
+INFO     :          45       50021           -8097        92.5%
+INFO     :          46       49899           -7768        93.6%
+INFO     :          47       49941           -8198        94.2%
+INFO     :          48       49117           -8125        94.5%
+INFO     :          49       49211           -7350        96.6%
+INFO     :          50       49520           -7529        96.9%
+INFO     :          51       49659           -7694        97.6%
+INFO     :          52       50033           -7933        97.6%
+INFO     :          53       49911           -7731        98.0%
+INFO     :          54       50121           -8313        98.1%
+INFO     : Starting Annealer
+            ----------     -------  --------------     -------
+             Iteration       WHPWL  Delay Max (ps)     R Limit
+            ----------     -------  --------------     -------
+INFO     :           0       19724            8950        30.0
+INFO     :           1       15872            9177        30.0
+INFO     :           2       12392            8077        29.8
+INFO     :           3       11878            7863        29.5
+INFO     :           4       11919            7587        28.4
+INFO     :           5       11579            7587        27.6
+INFO     :           6       11200            7587        26.4
+INFO     :           7       10584            7587        25.4
+INFO     :           8       10265            7587        24.0
+INFO     :           9       10064            7587        22.9
+INFO     :          10        9737            7608        21.7
+INFO     :          11        9618            7640        20.6
+INFO     :          12        9343            7182        19.5
+INFO     :          13        9206            7219        18.5
+INFO     :          14        9395            6548        17.4
+INFO     :          15        9137            6527        16.5
+INFO     :          16        8786            6527        15.5
+INFO     :          17        8841            6527        14.6
+INFO     :          18        8600            6532        13.7
+INFO     :          19        8381            6699        12.9
+INFO     :          20        8214            6537        12.0
+INFO     :          21        8170            6537        11.3
+INFO     :          22        8063            6537        10.5
+INFO     :          23        8034            6537         9.8
+INFO     :          24        7864            6551         9.1
+INFO     :          25        7720            6551         8.5
+INFO     :          26        7744            6532         7.9
+INFO     :          27        7914            6533         7.3
+INFO     :          28        7845            6537         6.8
+INFO     :          29        7761            6537         6.4
+INFO     :          30        7732            6533         5.9
+INFO     :          31        7596            6536         5.6
+INFO     :          32        7532            6515         5.2
+INFO     :          33        7514            6515         4.8
+INFO     :          34        7481            6651         4.5
+INFO     :          35        7480            6680         4.2
+INFO     :          36        7423            6680         3.9
+INFO     :          37        7362            6680         3.7
+INFO     :          38        7339            6495         3.4
+INFO     :          39        7334            6647         3.2
+INFO     :          40        7288            6904         3.0
+INFO     :          41        7306            6904         2.8
+INFO     :          42        7273            6948         2.6
+INFO     :          43        7223            6558         2.4
+INFO     :          44        7183            6558         2.2
+INFO     :          45        7132            6551         2.1
+INFO     :          46        7039            6597         1.9
+INFO     :          47        6958            6515         1.8
+INFO     : Placement successful: 1514 cells are placed
+INFO     : Peak congestion smeared over 4x4 of the chip is 0.29451 at 149,169
+INFO     : Peak congestion smeared over 1/16 of the chip is 0.247499 at 115,158
+INFO     : Peak congestion smeared over 1/4 of the chip is 0.156373 at 155,149
+INFO     : Congestion-weighted HPWL per net: 14.7121
+INFO     : Reading placement constraints from 'D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.qplace'.
+INFO     : Finished Realigning Types (243 blocks needed type change)
+INFO     : Completed placement consistency check successfully.
+INFO     : Successfully created FPGA place file 'D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.place'
+INFO     : Placement took 2.4698955 seconds [FlowMsg::StageDuration]
+INFO     :     Placement took 4.046875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Placement virtual memory usage: begin = 94.376 MB, end = 128.772 MB, delta = 34.396 MB [FlowMsg::VMUsage]
+INFO     :     Placement peak virtual memory usage = 133.608 MB [FlowMsg::VMUsage::Peak]
+INFO     : Placement resident set memory usage: begin = 108.704 MB, end = 142.516 MB, delta = 33.812 MB [FlowMsg::RSSUsage]
+INFO     :     Placement peak resident set memory usage = 151.324 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage placement *****
+           

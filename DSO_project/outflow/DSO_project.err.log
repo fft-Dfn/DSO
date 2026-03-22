@@ -1,0 +1,292 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 21, 2026 18:43:42
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\DSO_project.v:24)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 21, 2026 18:44:55
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] extra comma in port association list is not allowed (VERI-2523) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\DSO_project.v:244)
+[EFX-0010 VERI-ERROR] module 'DSO_project' is ignored due to previous errors (VERI-1072) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\DSO_project.v:254)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 21, 2026 18:45:31
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'output' (VERI-1137) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:55)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'output' used in incorrect context (VERI-2344) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:55)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 21, 2026 18:46:19
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'output' (VERI-1137) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:55)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'output' used in incorrect context (VERI-2344) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\hmi_controller.v:55)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 21, 2026 18:46:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 21, 2026 19:11:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 21, 2026 23:50:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 00:08:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 01:00:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 01:29:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 01:59:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 16:21:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 16:23:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 16:29:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 16:42:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 16:45:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 16:50:45
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:32)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 16:51:04
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:32)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 16:51:19
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] constant is not allowed here (VERI-1180) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\DSO_project.v:174)
+[EFX-0021 ERROR] Elaboration of module 'DSO_project' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 16:52:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 17:36:32
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'clke_a' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:171)
+[EFX-0010 VERI-ERROR] cannot find port 'clke_b' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:172)
+[EFX-0010 VERI-ERROR] cannot find port 'we_b' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:173)
+[EFX-0010 VERI-ERROR] cannot find port 'reset_a' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:174)
+[EFX-0010 VERI-ERROR] cannot find port 'reset_b' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:175)
+[EFX-0010 VERI-ERROR] cannot find port 'addren_a' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:176)
+[EFX-0010 VERI-ERROR] cannot find port 'addren_b' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:177)
+[EFX-0010 VERI-ERROR] cannot find port 'byteen_a' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:178)
+[EFX-0010 VERI-ERROR] cannot find port 'byteen_b' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:179)
+[EFX-0010 VERI-ERROR] cannot find port 'clke_a' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:197)
+[EFX-0010 VERI-ERROR] cannot find port 'clke_b' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:198)
+[EFX-0010 VERI-ERROR] cannot find port 'we_b' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:199)
+[EFX-0010 VERI-ERROR] cannot find port 'reset_a' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:200)
+[EFX-0010 VERI-ERROR] cannot find port 'reset_b' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:201)
+[EFX-0010 VERI-ERROR] cannot find port 'addren_a' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:202)
+[EFX-0010 VERI-ERROR] cannot find port 'addren_b' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:203)
+[EFX-0010 VERI-ERROR] cannot find port 'byteen_a' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:204)
+[EFX-0010 VERI-ERROR] cannot find port 'byteen_b' on this module (VERI-1010) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:205)
+[EFX-0021 ERROR] Elaboration of module 'DSO_project' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 18:16:05
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'pingpong_bram' (VERI-1206) (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram\pingpong_bram.v:145)
+[EFX-0010 VERI-ERROR] module 'efx_bram_9d0d06fc3b4445d99b5b192779be5fa4' is ignored due to previous errors (VERI-1072) (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram\pingpong_bram.v:616)
+[EFX-0010 VERI-ERROR] module 'dpbram_primitive_9d0d06fc3b4445d99b5b192779be5fa4' is ignored due to previous errors (VERI-1072) (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram\pingpong_bram.v:952)
+[EFX-0010 VERI-ERROR] module 'dpram_wrapper_mwm_9d0d06fc3b4445d99b5b192779be5fa4' is ignored due to previous errors (VERI-1072) (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram\pingpong_bram.v:2699)
+[EFX-0010 VERI-ERROR] module 'efx_true_dual_port_ram_9d0d06fc3b4445d99b5b192779be5fa4' is ignored due to previous errors (VERI-1072) (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram\pingpong_bram.v:2955)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 18:24:45
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'pingpong_bram' (VERI-1206) (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram\pingpong_bram.v:145)
+[EFX-0010 VERI-ERROR] module 'efx_bram_9d0d06fc3b4445d99b5b192779be5fa4' is ignored due to previous errors (VERI-1072) (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram\pingpong_bram.v:616)
+[EFX-0010 VERI-ERROR] module 'dpbram_primitive_9d0d06fc3b4445d99b5b192779be5fa4' is ignored due to previous errors (VERI-1072) (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram\pingpong_bram.v:952)
+[EFX-0010 VERI-ERROR] module 'dpram_wrapper_mwm_9d0d06fc3b4445d99b5b192779be5fa4' is ignored due to previous errors (VERI-1072) (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram\pingpong_bram.v:2699)
+[EFX-0010 VERI-ERROR] module 'efx_true_dual_port_ram_9d0d06fc3b4445d99b5b192779be5fa4' is ignored due to previous errors (VERI-1072) (D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project\ip/pingpong_bram\pingpong_bram.v:2955)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 18:28:05
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] extra comma in port association list is not allowed (VERI-2523) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:146)
+[EFX-0010 VERI-ERROR] extra comma in port association list is not allowed (VERI-2523) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:162)
+[EFX-0010 VERI-ERROR] module 'pingpong_buffer' is ignored due to previous errors (VERI-1072) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:384)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 18:28:52
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] extra comma in port association list is not allowed (VERI-2523) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:146)
+[EFX-0010 VERI-ERROR] extra comma in port association list is not allowed (VERI-2523) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:162)
+[EFX-0010 VERI-ERROR] module 'pingpong_buffer' is ignored due to previous errors (VERI-1072) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:384)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 18:31:49
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] extra comma in port association list is not allowed (VERI-2523) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:146)
+[EFX-0010 VERI-ERROR] extra comma in port association list is not allowed (VERI-2523) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:162)
+[EFX-0010 VERI-ERROR] module 'pingpong_buffer' is ignored due to previous errors (VERI-1072) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:384)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 18:33:35
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] extra comma in port association list is not allowed (VERI-2523) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:146)
+[EFX-0010 VERI-ERROR] extra comma in port association list is not allowed (VERI-2523) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:162)
+[EFX-0010 VERI-ERROR] module 'pingpong_buffer' is ignored due to previous errors (VERI-1072) (D:\Document\Code_field_vscode\FPGA_Verilog\efinity\DSO_project\pingpong_buffer.v:384)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 18:39:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 18:44:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 18:48:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 18:50:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 18:51:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 19:14:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 19:16:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 19:28:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 21:10:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 21:19:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 21:29:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 21:51:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 22, 2026 22:04:05
+///////////////////////////////////
+

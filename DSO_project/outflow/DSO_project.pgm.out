@@ -1,0 +1,22 @@
+INFO     : Efinix FPGA Bitstream Generator.
+INFO     : Version: 2025.2.288.3.8 
+INFO     : Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
+INFO     : Compiled: Jan 28 2026.
+INFO     : Using source file "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/work_pnr/DSO_project.lbf"
+INFO     : Generating HEX programming file for device "T20F256", family "Trion"
+INFO     : Using periphery source file "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.lpf"
+INFO     : Generating bit file: "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.bit"
+INFO     : HEX Generation Options Summary:
+INFO     : 	Listing options specified to bitstream generation:
+INFO     : 	spi_low_power_mode                       = on
+INFO     : 	oscillator_clock_divider                 = DIV8
+INFO     : 	io_weak_pullup                           = on
+INFO     : 	enable_remote_update                     = off
+INFO     : 	release_tri_then_reset                   = on
+INFO     : Finished generating "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.hex"
+INFO     : Efinix Bitstream Generator took 0.7295336 seconds [FlowMsg::StageDuration]
+INFO     :     Efinix Bitstream Generator took 0.578125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Efinix Bitstream Generator virtual memory usage: begin = 2.616 MB, end = 11.176 MB, delta = 8.56 MB [FlowMsg::VMUsage]
+INFO     :     Efinix Bitstream Generator peak virtual memory usage = 57.252 MB [FlowMsg::VMUsage::Peak]
+INFO     : Efinix Bitstream Generator resident set memory usage: begin = 9.74 MB, end = 20.928 MB, delta = 11.188 MB [FlowMsg::RSSUsage]
+INFO     :     Efinix Bitstream Generator peak resident set memory usage = 66.496 MB [FlowMsg::RSSUsage::Peak]
