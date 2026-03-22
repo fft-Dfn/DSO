@@ -1,0 +1,131 @@
+           
+           Efinix FPGA Placement and Routing.
+           Version: 2025.2.288.3.8 
+           Compiled: Jan 28 2026.
+           
+           Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
+
+           
+           The Tool Is Based on VPR of University of Toronto,
+           a free open source code under MIT license.
+           
+           
+INFO     : Running Placement and Routing for Family "Trion", Device "T20F256" ...
+           
+           ***** Beginning stage Routing graph generation ... *****
+INFO     : Read ipin pattern from E:/Efinity/2025.2/arch/./routing/ipin_oph.xml
+INFO     : Finished parsing ipin pattern file 'E:/Efinity/2025.2/arch/./routing/ipin_oph.xdb'.
+INFO     : Finished parsing switch_block file 'E:/Efinity/2025.2/arch/.\routing\sb_connectivity_subset.xdb'.
+INFO     : BuildGraph process took 1.307673 seconds [FlowMsg::StageDuration]
+INFO     :     BuildGraph process took 1.234375 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : BuildGraph process virtual memory usage: begin = 128.772 MB, end = 343.184 MB, delta = 214.412 MB [FlowMsg::VMUsage]
+INFO     :     BuildGraph process peak virtual memory usage = 343.184 MB [FlowMsg::VMUsage::Peak]
+INFO     : BuildGraph process resident set memory usage: begin = 142.692 MB, end = 361.532 MB, delta = 218.84 MB [FlowMsg::RSSUsage]
+INFO     :     BuildGraph process peak resident set memory usage = 361.532 MB [FlowMsg::RSSUsage::Peak]
+INFO     : check rr_graph process took 0.0450505 seconds [FlowMsg::StageDuration]
+INFO     :     check rr_graph process took 0.046875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : check rr_graph process virtual memory usage: begin = 343.184 MB, end = 343.184 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     check rr_graph process peak virtual memory usage = 343.184 MB [FlowMsg::VMUsage::Peak]
+INFO     : check rr_graph process resident set memory usage: begin = 361.672 MB, end = 361.728 MB, delta = 0.056 MB [FlowMsg::RSSUsage]
+INFO     :     check rr_graph process peak resident set memory usage = 361.728 MB [FlowMsg::RSSUsage::Peak]
+INFO     : Generated 1176248 RR nodes and 4449029 RR edges [DBMsg::DatabaseRoutingGraphStats]
+INFO     : This design has 0 global control net(s). See D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow\DSO_project.route.rpt for details.
+INFO     : Routing graph took 1.4030196 seconds [FlowMsg::StageDuration]
+INFO     :     Routing graph took 1.296875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Routing graph virtual memory usage: begin = 128.772 MB, end = 343.184 MB, delta = 214.412 MB [FlowMsg::VMUsage]
+INFO     :     Routing graph peak virtual memory usage = 343.184 MB [FlowMsg::VMUsage::Peak]
+INFO     : Routing graph resident set memory usage: begin = 142.54 MB, end = 361.812 MB, delta = 219.272 MB [FlowMsg::RSSUsage]
+INFO     :     Routing graph peak resident set memory usage = 361.812 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage Routing graph generation *****
+           
+           ***** Beginning stage routing ... *****
+INFO     : No SDC file found.  Using default timing constraint of 1 ns.
+INFO     : NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+INFO     : Creating clock 'clk_50m' with 1 sources
+INFO     : Creating clock 'clk_25m' with 1 sources
+INFO     :  ---------      -------     --------------      -------------
+INFO     :  Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+INFO     :  ---------      -------     --------------      -------------
+INFO     :          1         5377              7.068              0.362
+INFO     :          2         1120               6.99              0.302
+INFO     :          3          557               6.98              0.274
+INFO     :          4          206               6.98              0.246
+INFO     :          5           85               6.98              0.359
+INFO     :          6           46               6.98              0.218
+INFO     :          7           20              7.177               0.78
+INFO     :          8            5              7.193              0.615
+INFO     :          9            7              7.177              0.476
+INFO     :         10            3              7.189             0.0851
+INFO     :         11            0              7.189             0.0786
+           
+INFO     : Successfully routed netlist after 11 routing iterations and 18552317 heapops
+INFO     : Completed net delay value cross check successfully.
+           ***** Beginning stage routing check ... *****
+           ***** Ending stage routing check *****
+           
+INFO     : Serial number (magic cookie) for the routing is: 808029715
+INFO     : Netlist fully routed.
+INFO     : Successfully created FPGA route file 'D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.route'
+INFO     : Routing took 4.0330624 seconds [FlowMsg::StageDuration]
+INFO     :     Routing took 3.953125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Routing virtual memory usage: begin = 343.184 MB, end = 380.056 MB, delta = 36.872 MB [FlowMsg::VMUsage]
+INFO     :     Routing peak virtual memory usage = 380.056 MB [FlowMsg::VMUsage::Peak]
+INFO     : Routing resident set memory usage: begin = 361.812 MB, end = 390.988 MB, delta = 29.176 MB [FlowMsg::RSSUsage]
+INFO     :     Routing peak resident set memory usage = 390.988 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage routing *****
+           
+           ***** Beginning stage final timing analysis ... *****
+INFO     : No SDC file found.  Using default timing constraint of 1 ns.
+INFO     : NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+INFO     : Creating clock 'clk_50m' with 1 sources
+INFO     : Creating clock 'clk_25m' with 1 sources
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+  clk_25m       4.422        226.142         (R-R)
+  clk_50m       7.309        136.818         (R-R)
+
+Geomean max period: 5.685
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+    clk_25m          clk_25m           1.000            -3.422           (R-R)
+    clk_25m          clk_50m           1.000             2.104           (R-R)
+    clk_50m          clk_25m           1.000            -4.740           (R-R)
+    clk_50m          clk_50m           1.000            -6.309           (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+    clk_25m          clk_25m           0.000             0.307           (R-R)
+    clk_25m          clk_50m           0.000            -0.969           (R-R)
+    clk_50m          clk_25m           0.000             1.660           (R-R)
+    clk_50m          clk_50m           0.000             0.119           (R-R)
+
+WARNING  : Clock domain between clk_25m (rising) and clk_25m (rising) may not meet (slack: -3.422 ns) the setup (max) timing requirement
+WARNING  : Clock domain between clk_50m (rising) and clk_25m (rising) may not meet (slack: -4.740 ns) the setup (max) timing requirement
+WARNING  : Clock domain between clk_50m (rising) and clk_50m (rising) may not meet (slack: -6.309 ns) the setup (max) timing requirement
+WARNING  : Clock domain between clk_25m (rising) and clk_50m (rising) may not meet (slack: -0.969 ns) the hold (min) timing requirement
+INFO     : Write Timing Report to "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow\DSO_project.timing.rpt" ...
+INFO     : final timing analysis took 0.136867 seconds [FlowMsg::StageDuration]
+INFO     :     final timing analysis took 0.125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : final timing analysis virtual memory usage: begin = 380.056 MB, end = 380.056 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     final timing analysis peak virtual memory usage = 380.056 MB [FlowMsg::VMUsage::Peak]
+INFO     : final timing analysis resident set memory usage: begin = 391.012 MB, end = 391.544 MB, delta = 0.532 MB [FlowMsg::RSSUsage]
+INFO     :     final timing analysis peak resident set memory usage = 391.544 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage final timing analysis *****
+           
+           ***** Beginning stage bitstream generation ... *****
+INFO     : Reading core interface constraints file "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/outflow/DSO_project.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Finished writing bitstream file D:/Document/Code_field_vscode/FPGA_Verilog/efinity/DSO_project/work_pnr\DSO_project.lbf.
+INFO     : Bitstream generation took 0.2254077 seconds [FlowMsg::StageDuration]
+INFO     :     Bitstream generation took 0.1875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Bitstream generation virtual memory usage: begin = 380.056 MB, end = 380.056 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     Bitstream generation peak virtual memory usage = 380.056 MB [FlowMsg::VMUsage::Peak]
+INFO     : Bitstream generation resident set memory usage: begin = 391.588 MB, end = 392.264 MB, delta = 0.676 MB [FlowMsg::RSSUsage]
+INFO     :     Bitstream generation peak resident set memory usage = 392.264 MB [FlowMsg::RSSUsage::Peak]
+INFO     : The entire flow of EFX_PNR took 9.4036755 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_PNR took 10.453125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_PNR virtual memory usage: begin = 20.264 MB, end = 380.056 MB, delta = 359.792 MB [FlowMsg::VMUsage]
+INFO     :     The entire flow of EFX_PNR peak virtual memory usage = 380.056 MB [FlowMsg::VMUsage::Peak]
+INFO     : The entire flow of EFX_PNR resident set memory usage: begin = 22.94 MB, end = 392.344 MB, delta = 369.404 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_PNR peak resident set memory usage = 392.344 MB [FlowMsg::RSSUsage::Peak]

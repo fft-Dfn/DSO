@@ -1,0 +1,12 @@
+
+# Efinity Interface Routing Info
+# Version: 2025.2.288.3.8
+# Date: 2026-03-22 22:04
+
+# Copyright (C) 2013 - 2025 Efinix Inc. All rights reserved.
+
+path {
+	element {routing_blk: "PLL_TL0" routing_pin: "CLKOUT0" }
+	element {routing_blk: "CLKMUX_L" routing_pin: "IN[8]" }
+	element {routing_blk: "CLKMUX_L" routing_pin: "OUT[0]" }
+}
